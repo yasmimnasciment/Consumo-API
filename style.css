@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+    background-color: #ffffff;
+}
+#cabeçalho{
+    background-color: #04BF8A ;
+   height: 5em;
+   
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#div1{
+    background-color: #f6fa1dcc;
+    min-width: 460px;
+    margin: 12em;
+    height: 23em;
+    border-radius: 1em;
+   
+}
+h1{
+   font-size: 3em;
+   font-family: sans-serif;
+   color: #ffffff;
+   text-align: center;
+   padding-top: 10px;
+   
+}
+
+form{ 
+   text-align: center;
+   padding: 1rem;
+}
+
+label{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #0476D9;
+    margin-left: 0em;
+}
+
+#cep{
+   width: 18em;
+   height: 2em;
+   margin:1em;
+   margin-left: 0em;
+}
+
+#rua{
+    margin-right: 21em;
+    width: 18em;
+    height: 2em;
+   margin: 1em;
+   margin-left: 0em;
+}
+#bairro{
+    margin-right: 21em;
+    width: 18em;
+    height: 2em;
+    margin: 1em;
+    margin-left: 0em;
+}
+
+#cidade{
+    margin-right: 21em;
+    width: 18em;
+    height: 2em;
+    margin: 1em;
+    margin-left: 0em;
+}
+
+#uf{
+    margin-right: 21em;
+    width: 18em;
+    height: 2em;
+    margin: 1em;
+    margin-left: 0em;
+}
+
+#ibge{
+    margin-right: 21em;
+    width: 18em;
+    height: 2em;
+    margin: 1em;
+    margin-left: 0em;
+}
+footer{
+    background-color:#3785c9d8;
+    padding-top: 3em;
+}
+#contato{
+    text-align: center;
+    font-size: 1em;
+    font-family: sans-serif;
+    color: #ffffff;
+    padding-bottom: 5em;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
